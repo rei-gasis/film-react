@@ -1,0 +1,45 @@
+@import 'base';
+
+.navbar {
+    color: $bg-color !important;
+    background-color: $primary-color !important;
+
+    .navbar-brand {
+    position: relative;
+        background: url("assets/fr_logo.png");
+        background-repeat: no-repeat;
+        width: 50px;
+        height:50px;
+        left: 15px;
+        background-size: contain;
+
+        
+        filter: drop-shadow(0px 0px 5px green);
+    }
+    
+    ul 
+        {
+        li.nav-item {
+            padding-left: 0.5rem !important;
+            padding-right: 0.5rem !important;
+
+            a.logout {
+                cursor: pointer;
+            }
+        }
+
+        // li.nav-item:nth-last-child(1){
+        //     align-items: end;
+        // }
+
+        li i.sign-out {
+            content: url(../styles/assets/sign-out.svg);
+        }
+        
+
+    }
+
+
+    
+    
+}

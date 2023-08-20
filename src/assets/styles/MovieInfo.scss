@@ -1,0 +1,21 @@
+@import 'base';
+
+.modal-dialog {
+    width: 100vw;
+    margin: 0;
+    
+    position: fixed;
+    top:auto;
+    right:auto;
+    left:auto;
+    bottom:0;
+
+    transition: transform 1s top ease-in !important;
+    // transition: opacity 3s linear, left 3s ease-out !important;
+    // transform: translateY(50px) !important;
+
+    .modal-content {
+        background-color: $bg-color !important;
+        width: inherit;
+    }
+}

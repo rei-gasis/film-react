@@ -1,0 +1,16 @@
+@import "base";
+
+.list-group-item {
+  background-color: $bg-color !important;
+  color: $primary-color;
+
+  span,
+  p,
+  i.review {
+    color: $secondary-color !important;
+
+    .rating {
+      background-color: white;
+    }
+  }
+}
